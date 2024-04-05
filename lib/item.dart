@@ -12,7 +12,7 @@ class ItemCard extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 8.0, horizontal: 10.0),
       child: Opacity(
-       opacity: selected? 1: 0.4,
+       opacity: selected? 1: 0.7,
         child: Column(
           
           children: [
